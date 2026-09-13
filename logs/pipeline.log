@@ -33,6 +33,6 @@ q       0
 2026-09-13 10:36:05,016 | INFO | CSV salvo em /Users/henriquefreitas/Documents/MyProjects/notebook_exploracao_dados/data/processed/dataset_llm.csv
 2026-09-13 10:36:05,073 | INFO | JSON salvo em /Users/henriquefreitas/Documents/MyProjects/notebook_exploracao_dados/data/processed/dataset_llm.json (2150 registros)
 2026-09-13 10:36:05,074 | INFO | Relatório de validações salvo em /Users/henriquefreitas/Documents/MyProjects/notebook_exploracao_dados/data/processed/validation_report.json
-2026-09-13 10:36:05,074 | INFO | ============================================================
+2026-09-13 10:36:05,074 | INFO | 
 2026-09-13 10:36:05,074 | INFO | PIPELINE CONCLUÍDO COM SUCESSO
-2026-09-13 10:36:05,074 | INFO | ============================================================
+2026-09-13 10:36:05,074 | INFO | 
