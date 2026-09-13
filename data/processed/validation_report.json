@@ -1,0 +1,57 @@
+[
+  {
+    "validation": "required_columns",
+    "missing": [],
+    "passed": true
+  },
+  {
+    "validation": "uniqueness",
+    "subset": [
+      "userId",
+      "movieId"
+    ],
+    "duplicates_found": 0,
+    "passed": true
+  },
+  {
+    "validation": "rating_range",
+    "column": "rating",
+    "invalid_found": 0,
+    "passed": true
+  },
+  {
+    "validation": "s_columns_range",
+    "columns": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6",
+      "s7",
+      "s8"
+    ],
+    "invalid_marked_na": 0,
+    "passed": true
+  },
+  {
+    "validation": "q_range",
+    "column": "q",
+    "invalid_marked_na": 0,
+    "passed": true
+  },
+  {
+    "validation": "metadata_coverage",
+    "columns": [
+      "title",
+      "genres",
+      "tags"
+    ],
+    "missing_counts": {
+      "title": 1,
+      "genres": 1,
+      "tags": 567
+    },
+    "passed": false
+  }
+]
