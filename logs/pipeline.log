@@ -1,6 +1,6 @@
-2026-09-13 10:36:01,438 | INFO | ============================================================
-2026-09-13 10:36:01,438 | INFO | INÍCIO DO PIPELINE SERENDIPITY-LLM
-2026-09-13 10:36:01,438 | INFO | ============================================================
+2026-09-13 10:36:01,438 | INFO | 
+2026-09-13 10:36:01,438 | INFO | Início do Pipeline Avaliação com LLMs como juízes
+2026-09-13 10:36:01,438 | INFO | 
 2026-09-13 10:36:01,438 | INFO | Lendo answers.csv e movies.csv...
 2026-09-13 10:36:01,610 | INFO | answers.csv: 2150 registros
 2026-09-13 10:36:01,610 | INFO | movies.csv: 49157 registros
