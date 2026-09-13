@@ -1,7 +1,10 @@
 dataset/
-data/raw/answers.csv
-data/raw/movies.csv
-data/raw/tag_genome.csv
+dataset_llm.csv
+dataset_llm.json
+validation_report.json
+answers.csv
+movies.csv
+tag_genome.csv
 
 
 
