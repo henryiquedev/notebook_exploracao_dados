@@ -1,0 +1,17 @@
+{
+"userId": 1,
+"movieId": 1,
+"rating": 4.0,
+"timestamp": 1483228800,
+"predictedRating": 3.5,
+"s1": 5, "s2": 4, "s3": 4, "s4": 5,
+"s5": 4, "s6": 3, "s7": 5, "s8": 4,
+"q": 3,
+"s_ser_rel": true, "s_ser_find": true, "s_ser_imp": false, "s_ser_rec": true,
+"m_ser_rel": true, "m_ser_find": true, "m_ser_imp": false, "m_ser_rec": true,
+"title": "Toy Story (1995)",
+"genres": "Adventure|Animation|Children|Comedy|Fantasy",
+"directedBy": "John Lasseter",
+"starring": "Tom Hanks, Tim Allen, Don Rickles",
+"tags": "funny (0.92); heartwarming (0.88); animated (0.85); ..."
+}
