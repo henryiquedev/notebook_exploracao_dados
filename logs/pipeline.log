@@ -1,0 +1,38 @@
+2026-09-13 10:36:01,438 | INFO | ============================================================
+2026-09-13 10:36:01,438 | INFO | INÍCIO DO PIPELINE SERENDIPITY-LLM
+2026-09-13 10:36:01,438 | INFO | ============================================================
+2026-09-13 10:36:01,438 | INFO | Lendo answers.csv e movies.csv...
+2026-09-13 10:36:01,610 | INFO | answers.csv: 2150 registros
+2026-09-13 10:36:01,610 | INFO | movies.csv: 49157 registros
+2026-09-13 10:36:01,610 | INFO | Limpando answers.csv...
+2026-09-13 10:36:01,619 | INFO | Valores NA em s1-s8 e q:
+s1     91
+s2    740
+s3     63
+s4     24
+s5     19
+s6     86
+s7     19
+s8     33
+q       0
+2026-09-13 10:36:01,620 | INFO | [V1] OK — todas as 21 colunas obrigatórias presentes.
+2026-09-13 10:36:01,621 | INFO | [V2] OK — nenhuma duplicata em ['userId', 'movieId'].
+2026-09-13 10:36:01,621 | INFO | [V3] OK — todos os ratings em [0.5, 5.0].
+2026-09-13 10:36:01,622 | INFO | [V4] OK — todas as respostas s1-s8 em [1, 5] ou NA.
+2026-09-13 10:36:01,622 | INFO | [V5] OK — todos os valores de q em [1, 7] ou NA.
+2026-09-13 10:36:01,622 | INFO | Filtrando movies.csv pelos filmes em answers.csv...
+2026-09-13 10:36:01,626 | INFO | movies.csv filtrado: 49157 → 1677 filmes
+2026-09-13 10:36:01,626 | INFO | Lendo tag_genome.csv em chunks...
+2026-09-13 10:36:03,502 | INFO | tag_genome.csv filtrado: 1332168 registros
+2026-09-13 10:36:04,832 | INFO | Cache salvo em /Users/henriquefreitas/Documents/MyProjects/notebook_exploracao_dados/data/cache/tag_genome_filtered.parquet
+2026-09-13 10:36:04,836 | INFO | Extraindo top-15 tags por filme...
+2026-09-13 10:36:04,983 | INFO | Tags extraídas para 1181 filmes
+2026-09-13 10:36:04,985 | INFO | Construindo dataset final (join)...
+2026-09-13 10:36:04,992 | INFO | Dataset final: 2150 registros, 30 colunas
+2026-09-13 10:36:04,993 | WARNING | [V6] 569 registros sem metadados: {'title': 1, 'genres': 1, 'tags': 567}
+2026-09-13 10:36:05,016 | INFO | CSV salvo em /Users/henriquefreitas/Documents/MyProjects/notebook_exploracao_dados/data/processed/dataset_llm.csv
+2026-09-13 10:36:05,073 | INFO | JSON salvo em /Users/henriquefreitas/Documents/MyProjects/notebook_exploracao_dados/data/processed/dataset_llm.json (2150 registros)
+2026-09-13 10:36:05,074 | INFO | Relatório de validações salvo em /Users/henriquefreitas/Documents/MyProjects/notebook_exploracao_dados/data/processed/validation_report.json
+2026-09-13 10:36:05,074 | INFO | ============================================================
+2026-09-13 10:36:05,074 | INFO | PIPELINE CONCLUÍDO COM SUCESSO
+2026-09-13 10:36:05,074 | INFO | ============================================================
